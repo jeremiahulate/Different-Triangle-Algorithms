@@ -16,7 +16,7 @@ for i in range(rows2, 0, -1):
     print('\r')
 print("\n")
 
-# upside down triangle using astriks
+# upside down and centered triangle using astrisks
 rows3 = 5
 b = 2 * rows3 - 2
 for i in range(rows3, -1, -1):
@@ -26,3 +26,4 @@ for i in range(rows3, -1, -1):
     for j in range (0, i + 1):
         print("*", end= " ")
     print("")
+
